@@ -151,7 +151,7 @@ if (isset($_SESSION['same_name'])) {
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navigation pb-0 ">
         <div class="container ">
-            <a class="navbar-brand  navigationContent" href="https://github.com/JatinKevlani/to_do_list.git"><i
+            <a class="navbar-brand  navigationContent" href="https://github.com/JatinKevlani/to-do-list.git" target="_blank"><i
                     class="bi bi-card-checklist"></i> To Do List</a>
             <button style="color: #DAD7CD;" class="border-0 fs-1 navbar-toggler shadow-none" id="navbarToggleButton"
                 type="button" data-bs-toggle="collapse" data-bs-target="#content">
