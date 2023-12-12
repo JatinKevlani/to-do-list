@@ -1,6 +1,11 @@
 submitBtn.addEventListener("click", async (e) => {
     e.preventDefault();
     let username = document.getElementById("reg_userName").value;
+    if (username.includes(' '){
+        resultCont.innerHTML = "";
+        alert("Invalid Username! (a-z, A-Z, numbers and _");
+        return;
+    }
     let email = document.getElementById("reg_email").value;
     let password = document.getElementById("reg_pswd").value;
     resultCont.innerHTML = `<div class="d-flex justify-content-center">
