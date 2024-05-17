@@ -164,11 +164,6 @@ if (isset($_SESSION['same_name'])) {
                                 class="icon bi bi-house-door"></i><i class="icon-fill bi bi-house-door-fill"></i>
                             Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link  pageLink navigationContent" href="#contact"><i
-                                class="icon bi bi-envelope"></i><i class="icon-fill bi bi-envelope-fill"></i>
-                            Contact</a>
-                    </li>
                     
                 </ul>
                 <?php
